@@ -302,7 +302,7 @@ wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Install
 ```
 ## jangan lupa
 ```
-apt install apt-utils
+sudo apt install apt-utils
 ```
 ## masuk ke ubuntu dengan mengetik :
 ```bash
@@ -325,7 +325,14 @@ pkg update -y && pkg install wget curl proot tar -y && wget https://raw.githubus
 ```bash
 sudo apt install gnupg ; echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt/sources.list ; sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 648ACFD622F3D138 ; sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 0E98404D386FA1D9 ; sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 605C66F00D6C9793 ; sudo apt update ; sudo apt install firefox-esr
 ```
-## Pembarian paket yang disarankan
+## Software tambahan
+```
+sudo apt update && sudo apt upgrade
+sudo apt install libreoffice -y
+sudo apt install kdenlive -y
+sudo apt install vlc -y
+```
+## Pembaruan paket yang disarankan
 ```
 clear
 echo tunggu dan sabar
