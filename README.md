@@ -296,6 +296,10 @@ Atau simpelnya paste ini :
 ```bash
 wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu22/ubuntu22-xfce.sh -O
 ```
+## jangan lupa
+```
+apt install apt-utils
+```
 ## masuk ke ubuntu dengan mengetik :
 ```bash
 ./ubuntu22-xfce.sh
@@ -313,5 +317,36 @@ bash ubuntu22-xfce.sh
 ```bash
 pkg update -y && pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu22/ubuntu22-xfce.sh -O ubuntu22-xfce.sh && chmod +x ubuntu22-xfce.sh && bash ubuntu22-xfce.sh
 ```
+## Pembarian paket yang disarankan
+```
+clear
+echo tunggu dan sabar
+pkg update  -y && pkg upgrade -y
+pkg install git -y
+pkg install ncdu -y
+pkg install wget -y
+pkg install ruby -y
+gem install lolcat
+pkg install mc -y
+pkg install tsu -y
+pkg install x11-repo -y
+pkg install php -y
+pkg install python -y
+pkg install python2 -y
+pkg install python-pip -y
+pkg install pulseaudio -y
+pkg install proot-distro -y
+pkg install rxfetch -y
+pkg install android-tools -y
+pkg install neofetch -y
+pkg install php -y
+clear
+bash
+echo selesai ngap | lolcat
+# install ubuntu atau kali
+echo "install ubuntu atau kali linux"
+echo kamu programer sekarang ingat tujuanmu dan jangan lupa sholat ya ! | lolcat
+```
+
 # bisa kalian kontribusikan langsung ke githubnya andronix
 (https://github.com/AndronixApp)
