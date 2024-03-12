@@ -12,6 +12,10 @@ tar :
 ```bash
 pkg install wget curl proot tar -y 
 ```
+## Tampilkan sdcard
+```
+ln -s /storage/external_sd(nama kartu sd) ~/sdcard
+```
 
 # paket kebutuhan pokok desktop
 Bisa kalian modifikasi jika kalian sudah ahli di bawah ini :
